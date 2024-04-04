@@ -4,10 +4,14 @@
 //     for(index=3;index<=eded;index*=3){
 //         if(index===eded){
 //             console.log("3un quvvetidir")
+//         }  
+//         else if(index<eded || index>eded){
+//             console.log("3un quvveti deyil")
 //         }
-//         else if(index!==eded){
+//         else{
 //             console.log("3un quvveti deyl")
 //         }
+        
 
 //     }
 // task2-2
@@ -42,19 +46,19 @@
 
 // console.log("en yaxin pomidoralti " + kokalti);
 // task2-4
-const ededarray = [211, 40, 89, 122, 374, 867];
-let say = 0;
+// const ededarray = [211, 40, 89, 122, 374, 867];
+// let say = 0;
 
-for (let i = 0; i < ededarray.length; i++) {
-    let eded = ededarray[i];
-    let cem = 0;
-    while (num) {
-        cem += eded - ((eded / 10) | 0) * 10;
-        eded = (eded / 10) | 0;
-    }
-    if (cem < 10) {
-        say++;
-    }
-}
+// for (let i = 0; i < ededarray.length; i++) {
+//     let eded = ededarray[i];
+//     let cem = 0;
+//     while (num) {
+//         cem += eded - ((eded / 10) | 0) * 10;
+//         eded = (eded / 10) | 0;
+//     }
+//     if (cem < 10) {
+//         say++;
+//     }
+// }
 
-console.log(say);
+// console.log(say);
